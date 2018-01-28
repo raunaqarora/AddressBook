@@ -13,7 +13,7 @@ AddressBook requires [Elastic Search 6+](https://www.elastic.co/support/matrix) 
 
 *In case of any problems, requirements.txt includes the modules and their versions used during development.*
 
-
+**If you are running ElasticSearch on a port other than default(9200). Set "testing = False" in server.py ** 
 
 Clone the repository and start a terminal instance in the project folder.
 
