@@ -9,10 +9,6 @@ AddressBook is a Flask based REST API with an ElasticSearch backend.
 AddressBook requires [Elastic Search 6+](https://www.elastic.co/support/matrix) and [Java 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) to run.
 
 
-*AddressBook uses a Python 3 Virtual-Env so you do not need to install any external modules.*
-
-*In case of any problems, requirements.txt includes the modules and their versions used during development.*
-
 **If you are running ElasticSearch on a port other than default(9200). Set "testing = False" in server.py.** 
 
 Clone the repository and start a terminal instance in the project folder.
@@ -41,6 +37,10 @@ $ python3 test.py
 
 The script will create two new contacts, test primary functionality and delete the contacts before exit.
 
+
+*AddressBook uses a Python 3 Virtual-Env so you do not need to install any external modules.*
+
+*In case of any problems, requirements.txt includes the modules and their versions used during development.*
 
 
 ### API Definition:
