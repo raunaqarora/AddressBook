@@ -3,13 +3,7 @@ import json
 from elasticsearch import Elasticsearch
 from flask import Flask, request, jsonify
 
-testing = True
-
-if not testing:
-    print("Enter elastsearch port number: ")
-    port_No = input()
-else:
-    port_No = 9200
+port_No = 9200
 
 #Initialize 
 es = Elasticsearch([{'host': 'localhost', 'port': port_No}])
